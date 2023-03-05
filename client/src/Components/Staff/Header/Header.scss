@@ -1,0 +1,132 @@
+nav {
+    padding: 8px !important;
+    background-color: #c4d7e0;
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 15%;
+        height: 12%;
+        img {
+            width: 65%;
+            height: 12%;
+        }
+    }
+    .form-search {
+        .form-control,
+        .btn-search {
+            border-radius: 20px;
+            border-color: white;
+        }
+        .btn-search {
+            background-color: white;
+            border-color: white;
+            color: #ed0677;
+
+            &:hover {
+                background-color: white;
+                border-color: white;
+                color: #133c8b;
+            }
+        }
+        .form-control:focus-within {
+            box-shadow: none;
+            border-color: white;
+        }
+    }
+    .navbar-collapse {
+        justify-content: right;
+
+        .nav-item {
+            // .dropdown-menu {
+            //     display: block;
+            // }
+            color: black;
+            .dropdown-toggle::after {
+                border: 0 !important;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+
+// .header {
+//     padding-right: 0 !important;
+//     background-color: #133c8b;
+//     img {
+//         width: 35%;
+//     }
+
+//     .search {
+//         max-height: 50px;
+//         display: flex;
+//         background-color: #133c8b;
+//         border-radius: 92px;
+//         border: 1.5px solid rgba(22, 24, 35, 0.2);
+
+//         input {
+//             flex: 1;
+//             height: 100%;
+//             color: #828282;
+//             font-size: 1rem;
+//             border: none;
+//             background-color: transparent;
+//             outline: none;
+//             border-radius: 92px;
+//             padding-left: 10px;
+//         }
+
+//         input:not(:placeholder-shown) ~ .clear {
+//             color: black;
+//         }
+
+//         // &:focus-within {
+//         //     border: 1.5px solid rgba(22, 24, 35, 0.2);
+//         // }
+//     }
+
+//     .search-btn {
+//         height: 100%;
+//         width: 15%;
+//         border-bottom-right-radius: 92px;
+//         border-top-right-radius: 92px;
+//         border: none;
+//         background-color: #133c8b;
+
+//         &:hover {
+//             background-color: rgba(22, 24, 35, 0.03);
+//         }
+//     }
+//     .clear {
+//         outline: none;
+//         border: none;
+//         color: transparent;
+//     }
+
+//     .text-brand {
+//         display: flex;
+//         align-items: center;
+//     }
+//     .action {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
+
+// .nav {
+//     background-color: #133c8b;
+//     // position: sticky;
+//     // top: 0;
+
+//     .nav-link {
+//         color: aliceblue;
+//         padding: 10px 70px;
+//         font-weight: 400;
+//     }
+//     .nav-link:hover {
+//         color: #ed0677;
+//     }
+// }

@@ -1,0 +1,26 @@
+p {
+    font-size: 1rem;
+    font-weight: 600;
+
+    span {
+        font-weight: 450;
+        color: rgb(6, 6, 154);
+        font-style: italic;
+        margin-left: 1.5%;
+    }
+}
+button{
+    border:  none;
+    padding: 0.75% 2%;
+    margin-right: 2%;
+    color: white;
+
+}
+.btn-pdf {
+    background-color: #d92f30;
+
+}
+
+.btn-save {
+    background-color: #3ab0ff;
+}

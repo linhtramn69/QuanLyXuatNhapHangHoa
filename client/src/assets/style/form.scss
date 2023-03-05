@@ -1,0 +1,115 @@
+.table-export-input {
+    text-align: center;
+
+    .btn-save-add-product {
+        border-radius: 4px;
+        border: none;
+        padding: 3% 1%;
+        width: 50%;
+        color: white;
+        font-size: 1rem;
+        margin-right: 10px;
+        background-color: #edc42e;
+        text-transform: uppercase;
+    }
+
+    input {
+        border: none;
+
+        &:focus-within {
+            box-shadow: none;
+            border-color: white;
+        }
+    }
+}
+
+.typeahead-list-group-item{
+    padding: 0.3rem 1.3rem;
+    background-color: #fff;
+
+        &:hover {
+            cursor: pointer;
+            background: #646464;
+            color: #fff;
+        }
+
+}
+
+.table-export {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+
+    input {
+        height: 35px;
+        border: none !important;
+        text-align: center;
+        &:focus-within{
+            box-shadow: none;
+        }
+    }
+
+    .form-check-input-type {
+        input {
+            width: 1em;
+            height: 1em;
+        }
+    }
+
+
+    .add-row {
+        a {
+            text-decoration: none;
+            font-size: 1rem;
+        }
+    }
+}
+
+.filter {
+
+    .btn-pdf,
+    .btn-save {
+        border: none;
+        padding: 1.5% 1%;
+        width: 22%;
+        margin-right: 10px;
+        color: white;
+
+        .icon-btn {
+            font-size: 1rem;
+            margin-right: 5px;
+        }
+    }
+
+    .btn-pdf {
+        background-color: #d92f30;
+    }
+
+    .btn-save {
+        background-color: #3ab0ff;
+    }
+}
+
+.btn-save-add {
+    border: none;
+    padding: 3% 1%;
+    width: 85%;
+    color: white;
+    font-size: 1rem;
+    margin-right: 10px;
+    background-color: #1d6f42;
+    text-transform: uppercase;
+}
+
+.btn-save-add-product {
+    border-radius: 4px;
+    border: none;
+    padding: 3% 1%;
+    width: 50%;
+    color: white;
+    font-size: 1rem;
+    margin-right: 10px;
+    background-color: #edc42e;
+    text-transform: uppercase;
+
+}

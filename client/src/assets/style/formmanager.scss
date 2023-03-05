@@ -1,0 +1,46 @@
+.filter {
+    .option-status {
+        width: 40%;
+        margin-right: 2%;
+        border-radius: 0;
+        border: 1px solid #000000;
+    }
+    .option-time {
+        width: 45%;
+        border-radius: 0;
+        border: 1px solid #000000;
+    }
+    .btn-excel,
+    .btn-pdf,
+    .btn-save {
+        border: none;
+        padding: 1.5% 1%;
+        width: 22%;
+        margin-right: 10px;
+        color: white;
+
+        .icon-btn {
+            font-size: 1rem;
+            margin-right: 5px;
+        }
+    }
+    .btn-excel {
+        background-color: #1d6f42;
+    }
+    
+}
+.btn-detail{
+    color: #1d6f42 !important;
+    
+}
+p {
+    font-size: 1rem;
+    font-weight: 600;
+
+    span {
+        font-weight: 450;
+        color: rgb(6, 6, 154);
+        font-style: italic;
+        margin-left: 1.5%;
+    }
+}

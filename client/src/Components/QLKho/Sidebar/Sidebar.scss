@@ -1,0 +1,71 @@
+.sidebar-menu {
+    position: sticky;
+    top: 10%;
+    box-shadow: 8px 8px 11px#aaaaaa;
+    .sidebar-menu-nav,
+    .sidebar-menu-sub {
+        padding: 5%;
+        .sidebar-menu-nav-link {
+            text-decoration: none;
+            .sidebar-menu-nav-icon {
+                margin-right: 15px;
+                margin-left: 2px;
+                color: #000;
+            }
+        }
+        .sidebar-menu-nav-title {
+            color: #000;
+            font-weight: 500;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+    .sidebar-menu-nav:hover {
+        background-color: #aab6f4;
+    }
+
+    .sidebar-menu-sub-toggle {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        color: #000;
+
+        .sidebar-menu-nav-icon {
+            margin-right: 15px;
+        }
+    }
+    // .icon-gause {
+    //     color: #f0a500;
+    // }
+    // .icon-tent {
+    //     color: #f73d93;
+    // }
+    // .icon-circle-plus,
+    // .icon-quare-plus {
+    //     color: #38e54d;
+    // }
+    // .icon-circle-minus,
+    // .icon-quare-minus {
+    //     color: #ff1e00;
+    // }
+    // .icon-file-dollar {
+    //     color: #00ffab;
+    // }
+    // .icon-house {
+    //     color: #b9f8d3;
+    // }
+    // .icon-user {
+    //     color: #ff731d;
+    // }
+    // .icon-building-user {
+    //     color: #ffde00;
+    // }
+    // .icon-coin {
+    //     color: #f07dea;
+    // }
+    // .icon-gear {
+    //     color: #59ce8f;
+    // }
+}
